@@ -1,0 +1,88 @@
+@font-face{
+    font-family: 'rubik-regular';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://fonts.googleapis.com/css?family=Rubik');
+}
+
+body, text, li, ul, p, h1, h2, h3, h4, h5, h6, div{
+    text-align: center;
+    font-family: 'rubik', sans-serif;
+}
+
+p{
+    font-size: 16px;
+}
+
+.img1, .img2, .img3{
+     position: relative;
+     opacity: 0.75;      
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+
+     background-attachment: fixed; /*parallax scrolling*/
+}
+
+.img1{
+    background-image: url('../img/image1.jpg');
+    min-height: 600px;
+    min-width: 100%;
+}
+
+.caption1{
+    position: absolute; /* Position the background text */
+    top: 0; 
+    bottom: 0;
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.65); 
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 150px; /* Some padding */
+}
+
+#b1, #b2, #b3, #b4{
+    padding: 15px 30px;
+}
+
+#b5{
+    margin: 10px;
+    padding: 15px 30px;
+    border:2px solid white;
+    background: none;
+    color: white;
+}
+
+#b6{
+    margin: 10px;
+    padding: 15px 30px;
+    border: none;
+    background: #d84d26;
+    color: white;
+}
+
+.orange-banner{
+    position: absolute; /* Position the background text */
+    bottom: 0;
+    background: rgb(0, 0, 0); 
+    background: #d84d26; 
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */ 
+}
+
+.img2{
+    background-image: url('../img/image2.png');
+    min-height: 500px;
+}
+
+.seperating-text{
+    padding: 2% 2%;
+}
+
+.item1{
+    order: 0;
+}
+
+.item2{
+    order: 1;
+}
